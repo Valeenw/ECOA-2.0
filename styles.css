@@ -1,0 +1,195 @@
+/* Fuente futurista */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #F8E9E9;
+  color: #121212;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #391463;
+  color: #F8E9E9;
+  padding: 1rem 2rem;
+  box-shadow: 0 0 10px #7D8491;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+nav a {
+  color: #34E4EA;
+  text-decoration: none;
+  margin-left: 1.5rem;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #7BC950;
+}
+
+/* HERO SECTION */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #121212, #391463);
+  color: #F8E9E9;
+  padding: 4rem 3rem;
+}
+
+.hero-texto {
+  max-width: 50%;
+}
+
+.hero-texto h1 {
+  font-size: 2.8rem;
+  color: #34E4EA;
+}
+
+.hero-texto p {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  color: #F8E9E9;
+}
+
+.btn-principal {
+  margin-top: 1.5rem;
+  background-color: #7BC950;
+  color: #121212;
+  border: none;
+  padding: 0.8rem 1.6rem;
+  font-size: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-principal:hover {
+  background-color: #34E4EA;
+  color: #391463;
+}
+
+.hero-img img {
+  width: 350px;
+  filter: drop-shadow(0 0 15px #34E4EA);
+}
+
+/* PRODUCTOS */
+.productos {
+  padding: 3rem 2rem;
+  text-align: center;
+  background-color: #F8E9E9;
+}
+
+.productos h2 {
+  color: #391463;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.grid-productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.producto {
+  background-color: #121212;
+  color: #F8E9E9;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.producto:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px #7D8491;
+}
+
+.producto img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.producto h3 {
+  color: #34E4EA;
+  margin: 1rem 0 0.5rem;
+}
+
+.producto p {
+  font-size: 0.9rem;
+  padding: 0 1rem 1.5rem;
+}
+
+/* MISIÓN */
+.mision {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #7D8491;
+  color: #F8E9E9;
+  padding: 3rem 2rem;
+}
+
+.mision-texto {
+  width: 50%;
+}
+
+.mision-texto h2 {
+  color: #34E4EA;
+  margin-bottom: 1rem;
+}
+
+.mision-img img {
+  width: 400px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px #121212;
+}
+
+/* FOOTER */
+footer {
+  background-color: #121212;
+  color: #F8E9E9;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.9rem;
+}
+
+/* RESPONSIVO */
+@media (max-width: 900px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-texto, .mision-texto {
+    max-width: 100%;
+  }
+
+  .mision {
+    flex-direction: column;
+  }
+}
