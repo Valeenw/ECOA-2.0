@@ -1,0 +1,162 @@
+{
+  "Aguascalientes": [
+    { "nombre": "Androide Liebre-T1", "descripcion": "Tierra: Monitoreo de suelos agrícolas y plagas en el semidesierto.", "precio": 65000, "img": "img/liebre.jpeg" },
+    { "nombre": "Androide Aguililla-A1", "descripcion": "Aire: Vigilancia y protección de aves rapaces locales.", "precio": 72000, "img": "img/aguililla.jpeg" },
+    { "nombre": "Androide Sapo-W1", "descripcion": "Agua: Sensores de calidad de agua en presas y cauces.", "precio": 58000, "img": "img/sapo.jpeg" }
+  ],
+  "Baja California": [
+    { "nombre": "Androide Borrego Cimarrón-T2", "descripcion": "Tierra: Rescate y monitoreo en zonas montañosas y desérticas.", "precio": 95000, "img": "img/borrego_cimarron.jpeg" },
+    { "nombre": "Androide Cóndor-A2", "descripcion": "Aire: Vigilancia aérea de alta altitud y seguimiento de fauna.", "precio": 110000, "img": "img/condor.jpeg" },
+    { "nombre": "Androide Lobo Marino-W2", "descripcion": "Agua: Modelo anfibio resistente a la sal para monitoreo costero.", "precio": 92000, "img": "img/lobo marino.jpeg" }
+  ],
+  "Baja California Sur": [
+    { "nombre": "Androide Zorro-T3", "descripcion": "Tierra: Exploración y vigilancia nocturna en matorrales.", "precio": 68000, "img": "img/zorro.jpeg" },
+    { "nombre": "Androide Pelícano-A3", "descripcion": "Aire: Recolección de muestras y análisis de contaminación marina.", "precio": 75000, "img": "img/pelicano.jpeg" },
+    { "nombre": "Androide Ballena Gris-W3", "descripcion": "Agua: Seguimiento de rutas migratorias y protección de ballenas.", "precio": 130000, "img": "img/ballena_gris.jpeg" }
+  ],
+  "Campeche": [
+    { "nombre": "Androide Mono Aullador-T4", "descripcion": "Tierra: Monitoreo acústico de biodiversidad en la selva.", "precio": 80000, "img": "img/mono_aullador.jpeg" },
+    { "nombre": "Androide Quetzal-A4", "descripcion": "Aire: Vigilancia de dosel en la selva Lacandona.", "precio": 45000, "img": "img/quetzal.jpeg" },
+    { "nombre": "Androide Manatí-W4", "descripcion": "Agua: Protección de ecosistemas costeros y dulceacuícolas.", "precio": 88000, "img": "img/manati.jpeg" }
+  ],
+  "Chiapas": [
+    { "nombre": "Androide Jaguar-T5", "descripcion": "Tierra: Guardian de la Selva Lacandona, especializado en monitoreo de felinos.", "precio": 85000, "img": "img/jaguar.jpeg" },
+    { "nombre": "Androide Tucán-A5", "descripcion": "Aire: Unidad especializada en inventarios botánicos aéreos.", "precio": 55000, "img": "img/tucan.jpeg" },
+    { "nombre": "Androide Cocodrilo-W5", "descripcion": "Agua: Vigilancia en pantanos y ríos, detección de especies invasoras.", "precio": 98000, "img": "img/cocodrilo.jpeg" }
+  ],
+  "Chihuahua": [
+    { "nombre": "Androide Lobo Mexicano-T6", "descripcion": "Tierra: Seguimiento de manadas en zonas remotas y rescate.", "precio": 105000, "img": "img/lobo mexicano.jpeg" },
+    { "nombre": "Androide Búho-A6", "descripcion": "Aire: Vigilancia infrarroja nocturna de praderas y bosques.", "precio": 70000, "img": "img/buho.jpeg" },
+    { "nombre": "Androide Trucha-W6", "descripcion": "Agua: Monitoreo de temperatura y pH en ríos de la Sierra Madre.", "precio": 62000, "img": "img/trucha.jpeg" }
+  ],
+  "Coahuila": [
+    { "nombre": "Androide Oso Negro-T7", "descripcion": "Tierra: Detección y prevención de incendios forestales.", "precio": 90000, "img": "img/oso_negro.jpeg" },
+    { "nombre": "Androide Cernícalo-A7", "descripcion": "Aire: Drones pequeños para la vigilancia de dunas y desierto.", "precio": 50000, "img": "img/cernicalo.jpg" },
+    { "nombre": "Androide Carpa-W7", "descripcion": "Agua: Muestreo de sedimentos y calidad en ciénegas.", "precio": 59000, "img": "img/carpa.jpeg" }
+  ],
+  "Colima": [
+    { "nombre": "Androide Puma-T8", "descripcion": "Tierra: Monitoreo de ecosistemas volcánicos y bosques templados.", "precio": 88000, "img": "img/puma.jpeg" },
+    { "nombre": "Androide Halcón Peregrino-A8", "descripcion": "Aire: Plataforma de alta velocidad para mapeo de volcanes.", "precio": 78000, "img": "img/halcon_peregrino.jpeg" },
+    { "nombre": "Androide Tiburón Blanco-W8", "descripcion": "Agua: Vigilancia de zonas de pesca y arrecifes profundos.", "precio": 120000, "img": "img/tiburon blanco.jpeg" }
+  ],
+  "Durango": [
+    { "nombre": "Androide Coyote-T9", "descripcion": "Tierra: Rastreo y censo de fauna en el Bolsón de Mapimí.", "precio": 70000, "img": "img/coyote.jpeg" },
+    { "nombre": "Androide Zanate-A9", "descripcion": "Aire: Mapeo de áreas reforestadas y seguimiento de árboles jóvenes.", "precio": 48000, "img": "img/zanate.jpeg" },
+    { "nombre": "Androide Rata de Agua-W9", "descripcion": "Agua: Monitoreo de pequeños afluentes y humedales interiores.", "precio": 57000, "img": "img/rata de agua.jpeg" }
+  ],
+  "Guanajuato": [
+    { "nombre": "Androide Cacomixtle-T10", "descripcion": "Tierra: Vigilancia nocturna urbana y periurbana de fauna menor.", "precio": 63000, "img": "img/cacomixtle.jpeg" },
+    { "nombre": "Androide Colibrí-A10", "descripcion": "Aire: Monitoreo de polinización y flora en reservas naturales.", "precio": 52000, "img": "img/colibri.jpeg" },
+    { "nombre": "Androide Ajolote-W10", "descripcion": "Agua: Preservación de anfibios en estanques de zonas altas.", "precio": 79000, "img": "img/ajiolote.jpeg" }
+  ],
+  "Guerrero": [
+    { "nombre": "Androide Armadillo-T11", "descripcion": "Tierra: Identificación de madrigueras y mapeo de subsuelo.", "precio": 74000, "img": "img/armadillo.jpeg" },
+    { "nombre": "Androide Guacamaya-A11", "descripcion": "Aire: Detección de tala ilegal y vigilancia de la Sierra Madre del Sur.", "precio": 60000, "img": "img/guacamaya.jpeg" },
+    { "nombre": "Androide Tortuga Marina-W11", "descripcion": "Agua: Protección de nidos y seguimiento de crías en playas.", "precio": 99000, "img": "img/tortuga_marina.jpeg" }
+  ],
+  "Hidalgo": [
+    { "nombre": "Androide Tlalcoyote-T12", "descripcion": "Tierra: Monitoreo de especies clave en el Bosque de Niebla.", "precio": 71000, "img": "img/tlalcoyote.jpeg" },
+    { "nombre": "Androide Cenzontle-A12", "descripcion": "Aire: Captura de sonidos ambientales y análisis de ecosistemas.", "precio": 49000, "img": "img/cenzontle.jpeg" },
+    { "nombre": "Androide Acocil-W12", "descripcion": "Agua: Muestreo de microplásticos y calidad de arroyos y manantiales.", "precio": 56000, "img": "img/acocil.jpeg" }
+  ],
+  "Jalisco": [
+    { "nombre": "Androide Tigrillo-T13", "descripcion": "Tierra: Vigilancia de zonas de transición entre selvas y bosques.", "precio": 83000, "img": "img/tigrillo.jpeg" },
+    { "nombre": "Androide Vencejo-A13", "descripcion": "Aire: Cartografía de barrancas y detección de riesgos geológicos.", "precio": 66000, "img": "img/vencenjo.jpeg" },
+    { "nombre": "Androide Bagre-W13", "descripcion": "Agua: Monitoreo del Lago de Chapala y ecosistemas ribereños.", "precio": 73000, "img": "img/bagre.jpeg" }
+  ],
+  "México": [
+    { "nombre": "Androide Tlacuache-T14", "descripcion": "Tierra: Detección temprana de tráfico de fauna y áreas protegidas.", "precio": 67000, "img": "img/tlacuache.jpeg" },
+    { "nombre": "Androide Mariposa Monarca-A14", "descripcion": "Aire: Seguimiento de la migración y estado de salud del oyamel.", "precio": 94000, "img": "img/mariposa monarca.jpeg" },
+    { "nombre": "Androide Rana del Pedregal-W14", "descripcion": "Agua: Preservación de microhábitats en zonas urbanas y humedales.", "precio": 61000, "img": "img/rana del pedregal.jpeg" }
+  ],
+  "Michoacán": [
+    { "nombre": "Androide Teporingo-T15", "descripcion": "Tierra: Guardian del hábitat del conejo de los volcanes y pastizales.", "precio": 87000, "img": "img/teporingo.jpeg" },
+    { "nombre": "Androide Cernícalo-A15", "descripcion": "Aire: Detección de cultivos ilícitos y áreas deforestadas.", "precio": 54000, "img": "img/cernicalo.jpeg" },
+    { "nombre": "Androide Pez Blanco-W15", "descripcion": "Agua: Monitoreo del Lago de Pátzcuaro y zonas de pesca.", "precio": 76000, "img": "img/pezblanco.jpeg" }
+  ],
+  "Morelos": [
+    { "nombre": "Androide Conejo-T16", "descripcion": "Tierra: Monitoreo de fauna menor en el Parque Nacional El Tepozteco.", "precio": 64000, "img": "img/conejo.jpeg" },
+    { "nombre": "Androide Paloma-A16", "descripcion": "Aire: Detección de contaminación atmosférica y calidad del aire.", "precio": 47000, "img": "img/paloma.jpeg" },
+    { "nombre": "Androide Tilapia-W16", "descripcion": "Agua: Control de especies invasoras en estanques y presas.", "precio": 60000, "img": "img/tilapia.jpeg" }
+  ],
+  "Nayarit": [
+    { "nombre": "Androide Cocodrilo de Río-T17", "descripcion": "Tierra/Agua: Vigilancia de estuarios y zonas de anidación.", "precio": 91000, "img": "img/cocodrilo de rio.jpeg" },
+    { "nombre": "Androide Garza-A17", "descripcion": "Aire: Mapeo de manglares y análisis de ecosistemas costeros.", "precio": 69000, "img": "img/garza.jpeg" },
+    { "nombre": "Androide Tortuga Carey-W17", "descripcion": "Agua: Protección de zonas de desove y seguimiento oceánico.", "precio": 101000, "img": "img/tortugacarey.jpeg" }
+  ],
+  "Nuevo León": [
+    { "nombre": "Androide Mapache-T18", "descripcion": "Tierra: Vigilancia de áreas naturales protegidas y cañones.", "precio": 70000, "img": "img/mapache.jpeg" },
+    { "nombre": "Androide Milano-A18", "descripcion": "Aire: Reconocimiento aéreo de la Sierra Madre Oriental.", "precio": 68000, "img": "img/milano.jpeg" },
+    { "nombre": "Androide Mojarra-W18", "descripcion": "Agua: Monitoreo de calidad de agua en la Presa La Boca.", "precio": 63000, "img": "img/mojarra.jpeg" }
+  ],
+  "Oaxaca": [
+    { "nombre": "Androide Ocelote-T19", "descripcion": "Tierra: Guardian de la Selva Seca y el hábitat del ocelote.", "precio": 89000, "img": "img/ocelote.jpeg" },
+    { "nombre": "Androide Pelícano-A19", "descripcion": "Aire: Detección de derrames petroleros y contaminación costera.", "precio": 77000, "img": "img/pelicano.jpeg" },
+    { "nombre": "Androide Pez Vela-W19", "descripcion": "Agua: Seguimiento de especies pelágicas y conservación marina.", "precio": 125000, "img": "img/pez vela.jpeg" }
+  ],
+  "Puebla": [
+    { "nombre": "Androide Conejo de Los Volcanes-T20", "descripcion": "Tierra: Monitoreo de suelos en zonas volcánicas y de alta montaña.", "precio": 87000, "img": "img/conejo de los volcanes.jpeg" },
+    { "nombre": "Androide Águila Real-A20", "descripcion": "Aire: Vigilancia territorial de grandes extensiones y censo.", "precio": 100000, "img": "img/aguila real.jpeg" },
+    { "nombre": "Androide Cangrejo-W20", "descripcion": "Agua: Monitoreo de humedad en humedales de la Sierra.", "precio": 64000, "img": "img/cangrejo.jpeg" }
+  ],
+  "Querétaro": [
+    { "nombre": "Androide Tlalcoyote-T21", "descripcion": "Tierra: Exploración de grutas y cañones en la Sierra Gorda.", "precio": 71000, "img": "img/tlalcoyote.jpeg" },
+    { "nombre": "Androide Mariposa-A21", "descripcion": "Aire: Monitoreo de especies vegetales y polinización.", "precio": 52000, "img": "img/mariposaaaa.jpeg" },
+    { "nombre": "Androide Tritón-W21", "descripcion": "Agua: Sensores de ecosistemas fríos y cuerpos de agua temporales.", "precio": 59000, "img": "img/triton.jpeg" }
+  ],
+  "Quintana Roo": [
+    { "nombre": "Androide Tapir-T22", "descripcion": "Tierra: Monitoreo de zonas de amortiguamiento y selva húmeda.", "precio": 93000, "img": "img/tapir.jpeg" },
+    { "nombre": "Androide Flamenco-A22", "descripcion": "Aire: Vigilancia de zonas de anidación y humedales costeros.", "precio": 82000, "img": "img/flamenco.jpeg" },
+    { "nombre": "Androide Coral-W22", "descripcion": "Agua: Restauración y monitoreo de arrecifes de coral en el Caribe.", "precio": 115000, "img": "img/coral.jpeg" }
+  ],
+  "San Luis Potosí": [
+    { "nombre": "Androide Cacomistle-T23", "descripcion": "Tierra: Vigilancia nocturna de bosques de niebla y zonas rocosas.", "precio": 63000, "img": "img/cacomixtle.jpeg" },
+    { "nombre": "Androide Perico-A23", "descripcion": "Aire: Detección de tráfico de fauna y vigilancia de la Huasteca.", "precio": 57000, "img": "img/perico.jpeg" },
+    { "nombre": "Androide Nutria-W23", "descripcion": "Agua: Monitoreo de la salud de ríos y riachuelos de la Sierra.", "precio": 79000, "img": "img/nutria.jpeg" }
+  ],
+  "Sinaloa": [
+    { "nombre": "Androide Venado Cola Blanca-T24", "descripcion": "Tierra: Seguimiento de poblaciones y análisis de vegetación.", "precio": 78000, "img": "img/venado cola blanca.jpeg" },
+    { "nombre": "Androide Pelícano-A24", "descripcion": "Aire: Muestreo de contaminación en la Bahía de Mazatlán.", "precio": 75000, "img": "img/pelicano.jpeg" },
+    { "nombre": "Androide Camarón-W24", "descripcion": "Agua: Monitoreo de lagunas costeras y calidad del agua en estuarios.", "precio": 84000, "img": "img/camaron.jpeg" }
+  ],
+  "Sonora": [
+    { "nombre": "Androide Bighorn-T25", "descripcion": "Tierra: Exploración de cañones y apoyo en zonas inaccesibles del desierto.", "precio": 100000, "img": "img/bighorn.jpeg" },
+    { "nombre": "Androide Águila-A25", "descripcion": "Aire: Vigilancia de la frontera y censo de grandes mamíferos.", "precio": 96000, "img": "img/aguila.jpeg" },
+    { "nombre": "Androide Totoaba-W25", "descripcion": "Agua: Unidad especializada en la conservación de especies en el Golfo.", "precio": 140000, "img": "img/totoaba.jpeg" }
+  ],
+  "Tabasco": [
+    { "nombre": "Androide Saraguato-T26", "descripcion": "Tierra: Monitoreo acústico de primates en selvas y manglares.", "precio": 81000, "img": "img/saraguato.jpeg" },
+    { "nombre": "Androide Garza Blanca-A26", "descripcion": "Aire: Inspección de zonas inundadas y control de vegetación acuática.", "precio": 68000, "img": "img/garza blanca.jpeg" },
+    { "nombre": "Androide Pejelagarto-W26", "descripcion": "Agua: Sensores de calidad y salinidad en la red hidrológica.", "precio": 74000, "img": "img/pegelagarto.jpeg" }
+  ],
+  "Tamaulipas": [
+    { "nombre": "Androide Ocelote-T27", "descripcion": "Tierra: Vigilancia y protección de corredores biológicos.", "precio": 89000, "img": "img/ocelote.jpeg" },
+    { "nombre": "Androide Pelícano-A27", "descripcion": "Aire: Monitoreo de playas de anidación de tortugas lora.", "precio": 77000, "img": "img/pelicano.jpeg" },
+    { "nombre": "Androide Camarón-W27", "descripcion": "Agua: Detección de zonas de pesca ilegal en el Golfo de México.", "precio": 84000, "img": "img/camaron.jpeg" }
+  ],
+  "Tlaxcala": [
+    { "nombre": "Androide Teporingo-T28", "descripcion": "Tierra: Monitoreo de pastizales y bosques de Oyamel.", "precio": 87000, "img": "img/teporingo.jpeg" },
+    { "nombre": "Androide Cernícalo-A28", "descripcion": "Aire: Mapeo de áreas agrícolas y control de erosión.", "precio": 54000, "img": "img/cernicalo.jpeg" },
+    { "nombre": "Androide Tritón-W28", "descripcion": "Agua: Muestreo de agua en lagunas y zonas de montaña.", "precio": 59000, "img": "img/triton.jpeg" }
+  ],
+  "Veracruz": [
+    { "nombre": "Androide Mono Araña-T29", "descripcion": "Tierra: Vigilancia de zonas de manglar y selva alta perennifolia.", "precio": 82000, "img": "img/mono arana.jpeg" },
+    { "nombre": "Androide Pato-A29", "descripcion": "Aire: Mapeo de humedales y seguimiento de aves acuáticas.", "precio": 67000, "img": "img/pato.jpeg" },
+    { "nombre": "Androide Ostión-W29", "descripcion": "Agua: Monitoreo de calidad del agua en arrecifes y zonas costeras.", "precio": 76000, "img": "img/ostion.jpeg" }
+  ],
+  "Yucatán": [
+    { "nombre": "Androide Jaguar-T30", "descripcion": "Tierra: Guardian de la Selva Seca y detección de zonas arqueológicas.", "precio": 85000, "img": "img/jaguar.jpeg" },
+    { "nombre": "Androide Flamingo-A30", "descripcion": "Aire: Monitoreo de colonias de flamencos y reservas costeras.", "precio": 82000, "img": "img/flamingo.jpeg" },
+    { "nombre": "Androide Serpiente de Cenote-W30", "descripcion": "Agua: Explorador de cenotes y sistemas de cuevas subterráneas.", "precio": 65000, "img": "img/serpiente de cenote.jpeg" }
+  ],
+  "Zacatecas": [
+    { "nombre": "Androide Víbora de Cascabel-T31", "descripcion": "Tierra: Sensores sísmicos y vigilancia de zonas semidesérticas.", "precio": 73000, "img": "img/vibora de casacabel.jpeg" },
+    { "nombre": "Androide Búho-A31", "descripcion": "Aire: Vigilancia nocturna de fauna en el desierto de Zacatecas.", "precio": 70000, "img": "img/buho.jpeg" },
+    { "nombre": "Androide Pez Carpa-W31", "descripcion": "Agua: Monitoreo de presas y cuerpos de agua interiores.", "precio": 59000, "img": "img/pez carpa.jpeg" }
+  ],
+  "Ciudad de México": [
+    { "nombre": "Androide Ajolote-T32", "descripcion": "Tierra: Preservación de humedales y control de ecosistemas en Xochimilco.", "precio": 79000, "img": "img/ajiolote.jpeg" },
+    { "nombre": "Androide Colibrí-A32", "descripcion": "Aire: Monitoreo de la calidad del aire y flora urbana.", "precio": 52000, "img": "img/colibri.jpeg" },
+    { "nombre": "Androide Charal-W32", "descripcion": "Agua: Seguimiento de especies nativas en canales de la capital.", "precio": 61000, "img": "img/charal.jpeg" }
+  ]
+}

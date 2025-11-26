@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E.C.O.A - Tienda</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+<header>
+    <h1>E.C.O.A</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="tecnologia.html">Tecnología</a></li>
+            <li><a href="proyectos.html">Proyectos</a></li>
+            <li><a href="equipo.html">Equipo</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="tiendas.html" class="activo">Tienda</a></li> 
+        </ul>
+    </nav>
+</header>
+
+<main id="main-content">
+    <section class="contenido">
+        <h2>Tienda Oficial E.C.O.A - Androides Guardianes</h2>
+        <p>Selecciona un estado de México para ver los androides diseñados específicamente para proteger su fauna y ecosistemas nativos.</p>
+
+        <div class="selector-estado">
+            <label for="select-estado">Selecciona un estado:</label>
+            <select id="select-estado" onchange="mostrarProductosPorEstado(this.value)">
+                <option value="">— Cargando estados... —</option>
+            </select>
+        </div>
+
+        <div id="productos-por-estado" class="tienda-grid">
+            <p class="mensaje-espera">Selecciona un estado para comenzar a explorar los androides guardianes.</p>
+        </div>
+
+        <div class="carrito">
+            <h2>🛒 Carrito de Compras</h2>
+            <ul id="lista-carrito"></ul>
+            <span id="total">Total: $0 MXN</span>
+            <button onclick="finalizarCompra()">Finalizar Compra</button>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>2050 E.C.O.A - Especies de Conciencia Artificial</p>
+</footer>
+
+<script src="tiendas.js"></script>
+</body>
+</html>
