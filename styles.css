@@ -5,7 +5,7 @@
 /* CAMBIOS DE COLOR BASADOS EN TEORÍA FRÍA-NEÓN */
 /* ------------------------------------------- */
 --color-fondo-principal: #f8e9e9; /* Púrpura muy oscuro */
---color-acento-cian: #34e4e4; /* Cian/Aqua Puro (Brillante) */
+--color-acento-cian: #7bc950; /* Cian/Aqua Puro (Brillante) */
 --color-acento-verde: #7Bc950; /* Verde Neón/Lima Brillante */
 --color-texto-gris: #000000; /* Gris Azulado (Legibilidad) */
 --color-texto-principal: #000000; /* Blanco ligeramente azulado */
@@ -85,7 +85,7 @@ line-height: 1.2;
 }
 
 header {
-background: #7Bc950(30, 10, 50, 0.95); /* Usando el nuevo fondo oscuro */
+background: #391463 (30, 10, 50, 0.95); /* Usando el nuevo fondo oscuro */
 padding: 15px 10%;
 display: flex;
 justify-content: space-between;
