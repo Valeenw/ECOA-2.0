@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&display=swap');
 
 :root {
---color-fondo-principal: #391463; 
---color-acento-cian: #34e4e4;
---color-acento-verde: #7Bc950;
---color-texto-gris: #7d8491;
---color-texto-principal: #f8e9e9;
+/* ------------------------------------------- */
+/* CAMBIOS DE COLOR BASADOS EN TEORÍA FRÍA-NEÓN */
+/* ------------------------------------------- */
+--color-fondo-principal: #f8e9e9; /* Púrpura muy oscuro */
+--color-acento-cian: #34e4e4; /* Cian/Aqua Puro (Brillante) */
+--color-acento-verde: #7Bc950; /* Verde Neón/Lima Brillante */
+--color-texto-gris: #000000; /* Gris Azulado (Legibilidad) */
+--color-texto-principal: #000000; /* Blanco ligeramente azulado */
+--color-fondo-secundario: #34E4E4; /* Tono intermedio para tarjetas y formularios */
 }
 
 body {
@@ -21,20 +25,20 @@ overflow-x: hidden;
 h1, h2, h3 {
 font-weight: 700;
 letter-spacing: 3px;
-color: var(--color-acento-cian);
+color: var(--color --color-acento-verde);
 text-transform: uppercase;
-text-shadow: 0 0 5px rgba(52, 228, 228, 0.4);
+text-shadow: 0 0 8px rgba(0, 255, 255, 0.6); /* Sombra más fuerte y cian */
 }
 
 h3 {
-color: var(--color-acento-verde);
+color: var(--color-acento-verde); /* Título secundario en Verde Neón */
 text-shadow: none;
 font-size: 1.2rem;
 letter-spacing: 1px;
 }
 
 p {
-color: var(--color-texto-gris);
+color: var(--color-texto-principal); /* Párrafos en Gris Azulado */
 font-weight: 400;
 }
 
@@ -46,7 +50,7 @@ transition: color 0.3s ease, text-shadow 0.3s ease;
 
 a:hover {
 color: var(--color-acento-verde);
-text-shadow: 0 0 8px var(--color-acento-verde);
+text-shadow: 0 0 10px var(--color-acento-verde);
 }
 
 #main-content {
@@ -81,7 +85,7 @@ line-height: 1.2;
 }
 
 header {
-background: rgba(30, 0, 50, 0.95);
+background: #7Bc950(30, 10, 50, 0.95); /* Usando el nuevo fondo oscuro */
 padding: 15px 10%;
 display: flex;
 justify-content: space-between;
@@ -89,14 +93,14 @@ align-items: center;
 position: sticky; 
 top: 0;
 z-index: 1000;
-box-shadow: 0 2px 15px rgba(52, 228, 228, 0.2);
+box-shadow: 0 2px 20px rgba(0, 255, 255, 0.4); /* Sombra de neón cian */
 }
 
 header h1 {
     font-size: 1.8rem;
 margin: 0;
-color: var(--color-acento-verde);
-text-shadow: 0 0 10px var(--color-acento-verde);
+color: var(--color-acento-verde); /* El logo en Verde Neón */
+text-shadow: 0 0 12px var(--color-acento-verde);
 }
 
 header nav ul {
@@ -131,7 +135,7 @@ left: 0;
 width: 100%;
 height: 3px;
 background: var(--color-acento-verde);
-box-shadow: 0 0 5px var(--color-acento-verde);
+box-shadow: 0 0 8px var(--color-acento-verde);
 animation: line-grow 0.5s forwards;
 }
 
@@ -142,7 +146,8 @@ to { width: 100%; }
 
 button, .btn-comprar {
 padding: 10px 20px;
-background: linear-gradient(45deg, var(--color-acento-cian), #2ababa);
+/* Degradado con ambos acentos */
+background: linear-gradient(45deg, var(--color-acento-cian), var(--color-acento-verde)); 
 color: var(--color-fondo-principal);
 border: 2px solid var(--color-acento-verde);
 border-radius: 8px;
@@ -151,7 +156,7 @@ font-weight: 700;
 cursor: pointer;
 transition: all 0.3s ease;
 text-transform: uppercase;
-box-shadow: 0 0 10px rgba(52, 228, 228, 0.5);
+box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
 margin-top: 10px;
 }
 
@@ -159,7 +164,7 @@ button:hover, .btn-comprar:hover {
 background: var(--color-fondo-principal);
 color: var(--color-acento-verde);
 border-color: var(--color-acento-verde);
-box-shadow: 0 0 20px var(--color-acento-verde), 0 0 5px var(--color-acento-verde) inset;
+box-shadow: 0 0 25px var(--color-acento-verde), 0 0 8px var(--color-acento-verde) inset;
 transform: translateY(-2px);
 }
 
@@ -167,10 +172,10 @@ transform: translateY(-2px);
 max-width: 600px;
 margin: 40px auto;
 padding: 30px;
-background: #2b0c4a;
+background: var(--color-fondo-secundario); /* Nuevo fondo secundario */
 border: 1px solid var(--color-acento-cian);
 border-radius: 10px;
-box-shadow: 0 0 20px rgba(52, 228, 228, 0.3);
+box-shadow: 0 0 25px rgba(0, 255, 255, 0.4);
 }
 
 .contenido label {
@@ -215,18 +220,18 @@ margin-top: 40px;
 }
 
 .card {
-background: rgba(43, 12, 74, 0.8);
+background: var(--color-fondo-secundario); /* Nuevo fondo secundario */
 padding: 25px;
 border-radius: 15px;
 border: 1px solid var(--color-acento-verde);
-box-shadow: 0 0 15px rgba(123, 201, 80, 0.3);
+box-shadow: 0 0 15px rgba(170, 255, 0, 0.3);
 transition: transform 0.4s ease, box-shadow 0.4s ease;
 animation: pulse-border 5s infinite ease-in-out;
 }
 
 .card:hover {
     transform: translateY(-5px) scale(1.02);
-box-shadow: 0 10px 30px rgba(123, 201, 80, 0.5);
+box-shadow: 0 10px 30px rgba(170, 255, 0, 0.6);
 }
 
 .card h3 {
@@ -247,18 +252,18 @@ margin-top: 30px;
 }
 
 .contenido ul li {
-background: #2b0c4a;
+background: var(--color-fondo-secundario); /* Nuevo fondo secundario */
 padding: 15px 25px;
 margin-bottom: 15px;
 border-left: 5px solid var(--color-acento-cian);
 border-radius: 5px;
 transition: all 0.3s ease;
-box-shadow: 0 0 10px rgba(52, 228, 228, 0.1);
+box-shadow: 0 0 10px rgba(0, 255, 255, 0.1);
 }
 
 .contenido ul li:hover {
 border-left-color: var(--color-acento-verde);
-box-shadow: 0 0 15px rgba(123, 201, 80, 0.4);
+box-shadow: 0 0 15px rgba(170, 255, 0, 0.5);
 transform: translateX(5px);
 }
 
@@ -275,18 +280,18 @@ margin-top: 40px;
 }
 
 .tech-box {
-background: #2b0c4a;
+background: var(--color-fondo-secundario); /* Nuevo fondo secundario */
 padding: 25px;
 border: 1px solid var(--color-acento-cian);
 border-radius: 10px;
-box-shadow: 0 0 10px rgba(52, 228, 228, 0.2);
+box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
 transition: all 0.4s ease;
 }
 
 .tech-box:hover {
-background: #361159;
+background: #361159; /* Un tono ligeramente más oscuro que el secundario para hover */
 border-color: var(--color-acento-verde);
-box-shadow: 0 0 25px rgba(123, 201, 80, 0.6);
+box-shadow: 0 0 25px rgba(170, 255, 0, 0.7);
 }
 
 .tech-box h3 {
@@ -307,11 +312,11 @@ margin-top: 40px;
 }
 
 .producto {
-background: #2b0c4a;
+background: var(--color-fondo-secundario); /* Nuevo fondo secundario */
 padding: 20px;
 border-radius: 10px;
 border: 1px solid var(--color-texto-gris);
-box-shadow: 0 0 15px rgba(52, 228, 228, 0.1);
+box-shadow: 0 0 15px rgba(0, 255, 255, 0.1);
 text-align: center;
 }
 
@@ -340,12 +345,12 @@ margin: 15px 0;
 }
 
 .carrito {
-background: #2b0c4a;
+background: var(--color-fondo-secundario); /* Nuevo fondo secundario */
 padding: 20px;
 margin-top: 50px;
 border-radius: 10px;
 border: 1px solid var(--color-acento-verde);
-box-shadow: 0 0 20px rgba(123, 201, 80, 0.4);
+box-shadow: 0 0 20px rgba(170, 255, 0, 0.5);
 }
 
 .carrito h2 {
@@ -391,7 +396,7 @@ font-weight: 700;
 }
 
 .resumen-compra {
-    background: #2b0c4a;
+    background: var(--color-fondo-secundario); /* Nuevo fondo secundario */
     padding: 20px;
     margin-bottom: 30px;
     border-radius: 10px;
@@ -409,7 +414,7 @@ font-weight: 700;
 }
 
 footer {
-background: #1a0833;
+background: #140726; /* Un tono aún más oscuro para el footer */
 color: var(--color-texto-gris);
 text-align: center;
 padding: 20px 10%;
@@ -419,9 +424,9 @@ letter-spacing: 1px;
 }
 
 @keyframes pulse-border {
-0% { border-color: var(--color-acento-verde); box-shadow: 0 0 5px rgba(123, 201, 80, 0.3); }
-50% { border-color: var(--color-acento-cian); box-shadow: 0 0 15px rgba(52, 228, 228, 0.4); }
-100% { border-color: var(--color-acento-verde); box-shadow: 0 0 5px rgba(123, 201, 80, 0.3); }
+0% { border-color: var(--color-acento-verde); box-shadow: 0 0 8px rgba(170, 255, 0, 0.3); }
+50% { border-color: var(--color-acento-cian); box-shadow: 0 0 18px rgba(0, 255, 255, 0.5); }
+100% { border-color: var(--color-acento-verde); box-shadow: 0 0 8px rgba(170, 255, 0, 0.3); }
 }
 
 @keyframes image-shift {
@@ -465,7 +470,7 @@ letter-spacing: 1px;
         padding-right: 5%;
     }
 
-   
+    
     h1 {
         font-size: 1.5rem;
     }
