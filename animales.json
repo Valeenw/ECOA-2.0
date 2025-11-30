@@ -71,7 +71,7 @@
   ],
   "Michoacán": [
     { "nombre": "Androide Teporingo-T15", "descripcion": "Tierra: Guardian del hábitat del conejo de los volcanes y pastizales.", "precio": 87000, "img": "img/teporingo.jpeg" },
-    { "nombre": "Androide Cernícalo-A15", "descripcion": "Aire: Detección de cultivos ilícitos y áreas deforestadas.", "precio": 54000, "img": "img/cernicalo.jpeg" },
+    { "nombre": "Androide Cernícalo-A15", "descripcion": "Aire: Detección de cultivos ilícitos y áreas deforestadas.", "precio": 54000, "img": "img/cernicalo.jpg" },
     { "nombre": "Androide Pez Blanco-W15", "descripcion": "Agua: Monitoreo del Lago de Pátzcuaro y zonas de pesca.", "precio": 76000, "img": "img/pezblanco.jpeg" }
   ],
   "Morelos": [
