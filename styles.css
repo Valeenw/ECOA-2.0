@@ -3,7 +3,7 @@
 /* Variables de Color Actualizadas (Estilo Claro con Acentos de Neón) */
 :root {
 --color-fondo-principal: #ece7ca; /* Beige Claro (Fondo) */
---color-fondo-translucido: rgba(255, 255, 255, 0.7); /* Fondo de contenedores con transparencia blanca */
+--color-fondo-translucido: rgb(255, 252, 238); /* Fondo de contenedores con transparencia blanca */
 --color-borde-cristal: rgba(0, 0, 0, 0.1); /* Borde sutil oscuro para efecto de cristal */
 --color-acento-neon-cian: #00FFFF; /* Cian brillante */
 --color-acento-neon-verde: #39FF14; /* Verde brillante */
@@ -58,12 +58,12 @@ text-shadow: 0 0 10px var(--color-sombra-neon-verde);
 
 #main-content {
 min-height: calc(100vh - 100px);
-padding: 60px 10%;
+padding: 70px 10%;
 transition: opacity 0.5s ease-in-out;
 }
 
 .contenido {
-padding: 0;
+padding: 40px;
 
 backdrop-filter: blur(10px); 
 background-color: var(--color-fondo-translucido); 
@@ -171,10 +171,35 @@ box-shadow: 0 0 15px var(--color-sombra-neon-verde);
 margin-top: 10px;
 }
 
+.btn-secundario {
+    padding: 10px 20px;
+    /* Fondo con gradiente de Cian Neón */
+    background: linear-gradient(45deg, var(--color-acento-neon-cian), #00caca); 
+    color: var(--color-texto-oscuro); 
+    border: 2px solid var(--color-acento-neon-cian); /* Borde cian */
+    border-radius: 8px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    box-shadow: 0 0 15px var(--color-sombra-neon-cian); /* Sombra cian */
+    margin-top: 10px;
+}
+
+.btn-secundario:hover {
+   
+    background: linear-gradient(45deg, var(--color-acento-neon-verde), #2ed80e); 
+    border-color: var(--color-acento-neon-verde); 
+    color: var(--color-texto-oscuro);
+    box-shadow: 0 0 25px var(--color-sombra-neon-verde); /* Sombra verde */
+    transform: translateY(-2px);
+}
+
 button:hover, .btn-comprar:hover {
 background: linear-gradient(45deg, var(--color-acento-neon-cian), #00caca); 
 color: var(--color-texto-oscuro);
-box-shadow: 0 0 25px var(--color-sombra-neon-cian); 
+box-shadow: 0 0 25px var(--color-sombra-neon-cian);
 transform: translateY(-2px);
 }
 
@@ -194,6 +219,7 @@ margin-top: 15px;
 margin-bottom: 5px;
 color: var(--color-acento-neon-cian); 
 font-weight: 600;
+padding: 30px;
 }
 
 .contenido input[type="text"],
@@ -222,11 +248,33 @@ resize: vertical;
 min-height: 100px;
 }
 
+.selector-estado select {
+    width: auto;
+    padding: 10px;
+    border: 2px solid var(--color-acento-neon-cian); 
+    background: var(--color-sombra-neon-cian);
+    color: var(--color-texto-oscuro);
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 600;
+    border-radius: 8px;
+    box-shadow: 0 0 10px var(--color-sombra-neon-cian);
+    transition: all 0.3s ease;
+    appearance: none; 
+    cursor: pointer;
+}
+
+.selector-estado select:focus {
+    outline: none;
+    border-color: var(--color-acento-neon-cian); 
+    box-shadow: 0 0 15px var(--color-sombra-neon-verde);
+}
+
 .cards {
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 gap: 30px;
 margin-top: 40px;
+padding: auto;
 }
 
 .card {
@@ -236,6 +284,7 @@ border: 1px solid var(--color-borde-cristal);
 box-shadow: 0 0 15px rgba(0,0,0,0.1), 0 0 10px var(--color-sombra-neon-verde); 
 transition: transform 0.4s ease, box-shadow 0.4s ease;
 animation: pulse-border 5s infinite ease-in-out;
+padding: 30px;
 }
 
 .card:hover {
@@ -252,6 +301,7 @@ margin-top: 0;
 
 .card p {
 color: var(--color-texto-oscuro); 
+padding: auto;
 }
 
 .contenido ul {

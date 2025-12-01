@@ -24,14 +24,16 @@
 
 <main id="main-content">
     <section class="contenido">
-        <h2>Androides Guardianes</h2>
+        <h2 class="animated-title">Androides Guardianes</h2>
         <p>Selecciona un estado de México para ver los androides diseñados específicamente para proteger su fauna y ecosistemas nativos.</p>
 
         <div class="selector-estado">
             <label for="select-estado">Selecciona un estado:</label>
-            <select id="select-estado" onchange="mostrarProductosPorEstado(this.value)">
-                <option value="">— Cargando estados... —</option>
-            </select>
+            <div class="selector-input">
+                <select id="select-estado" onchange="mostrarProductosPorEstado(this.value)">
+                    <option value="">— Cargando estados... —</option>
+                </select>
+                </div>
         </div>
 
         <div id="productos-por-estado" class="tienda-grid">
@@ -39,10 +41,10 @@
         </div>
 
         <div class="carrito">
-            <h2>🛒 Carrito de Compras</h2>
+            <h2>Carrito de Compras</h2>
             <ul id="lista-carrito"></ul>
             <span id="total">Total: $0 MXN</span>
-            <button onclick="finalizarCompra()">Finalizar Compra</button>
+            <button onclick="finalizarCompra()" class="btn-secundario">Finalizar Compra</button>
         </div>
     </section>
 </main>
