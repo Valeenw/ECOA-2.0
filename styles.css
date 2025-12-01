@@ -1,16 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&display=swap');
 
-/* Variables de Color Actualizadas (Estilo Claro con Acentos de Neón) */
 :root {
---color-fondo-principal: #ece7ca; /* Beige Claro (Fondo) */
---color-fondo-translucido: rgb(255, 252, 238); /* Fondo de contenedores con transparencia blanca */
---color-borde-cristal: rgba(0, 0, 0, 0.1); /* Borde sutil oscuro para efecto de cristal */
---color-acento-neon-cian: #00FFFF; /* Cian brillante */
---color-acento-neon-verde: #39FF14; /* Verde brillante */
---color-texto-oscuro: #391463; /* Texto principal oscuro (Morado Oscuro) */
---color-texto-gris-suave: #7d8491; /* Texto secundario gris */
---color-sombra-neon-cian: rgba(0, 255, 255, 0.5); /* Sombra para el cian */
---color-sombra-neon-verde: rgba(57, 255, 20, 0.5); /* Sombra para el verde */
+--color-fondo-principal: #ece7ca; 
+--color-fondo-translucido: rgb(255, 252, 238);
+--color-borde-cristal: rgba(0, 0, 0, 0.1);
+--color-acento-neon-cian: #00FFFF; 
+--color-acento-neon-verde: #39FF14;
+--color-texto-oscuro: #391463; 
+--color-texto-gris-suave: #7d8491;
+--color-sombra-neon-cian: rgba(0, 255, 255, 0.5); 
+--color-sombra-neon-verde: rgba(57, 255, 20, 0.5); 
 }
 
 body {
@@ -18,24 +17,23 @@ margin: 0;
 padding: 0;
 background: var(--color-fondo-principal); 
 font-family: 'Orbitron', sans-serif;
-color: var(--color-texto-oscuro); /* Texto principal ahora es oscuro */
+color: var(--color-texto-oscuro); 
 line-height: 1.6;
 overflow-x: hidden;
-/* Quitamos el fondo oscuro complejo, dejamos el color sólido */
 background-attachment: fixed;
 }
 
 h1, h2, h3 {
 font-weight: 700;
 letter-spacing: 3px;
-color: var(--color-acento-neon-verde); /* Títulos principales en Verde Neón */
+color: var(--color-acento-neon-verde); 
 text-transform: uppercase;
-text-shadow: 0 0 8px var(--color-sombra-neon-verde); /* Sombra de neón verde */
+text-shadow: 0 0 8px var(--color-sombra-neon-verde); 
 }
 
 h3 {
-color: var(--color-acento-neon-cian); /* Cian Neón para subtítulos */
-text-shadow: 0 0 5px var(--color-sombra-neon-cian); /* Sombra de neón cian */
+color: var(--color-acento-neon-cian);
+text-shadow: 0 0 5px var(--color-sombra-neon-cian); 
 font-size: 1.2rem;
 letter-spacing: 1px;
 }
@@ -127,7 +125,7 @@ margin-left: 25px;
 }
 
 header nav ul li a {
-color: var(--color-fondo-principal); /* Texto del nav en color oscuro */
+color: var(--color-fondo-principal); 
 font-weight: 600;
 padding: 5px 0;
 position: relative;
@@ -173,17 +171,16 @@ margin-top: 10px;
 
 .btn-secundario {
     padding: 10px 20px;
-    /* Fondo con gradiente de Cian Neón */
     background: linear-gradient(45deg, var(--color-acento-neon-cian), #00caca); 
     color: var(--color-texto-oscuro); 
-    border: 2px solid var(--color-acento-neon-cian); /* Borde cian */
+    border: 2px solid var(--color-acento-neon-cian); 
     border-radius: 8px;
     font-family: 'Orbitron', sans-serif;
     font-weight: 700;
     cursor: pointer;
     transition: all 0.3s ease;
     text-transform: uppercase;
-    box-shadow: 0 0 15px var(--color-sombra-neon-cian); /* Sombra cian */
+    box-shadow: 0 0 15px var(--color-sombra-neon-cian); 
     margin-top: 10px;
 }
 
@@ -192,7 +189,7 @@ margin-top: 10px;
     background: linear-gradient(45deg, var(--color-acento-neon-verde), #2ed80e); 
     border-color: var(--color-acento-neon-verde); 
     color: var(--color-texto-oscuro);
-    box-shadow: 0 0 25px var(--color-sombra-neon-verde); /* Sombra verde */
+    box-shadow: 0 0 25px var(--color-sombra-neon-verde); 
     transform: translateY(-2px);
 }
 
@@ -482,7 +479,6 @@ letter-spacing: 1px;
 box-shadow: 0 -2px 10px rgba(0,0,0,0.1); 
 }
 
-/* Animaciones Actualizadas (Mantienen el look Neón pero con sombras menos agresivas) */
 @keyframes pulse-border {
 0% { border-color: var(--color-borde-cristal); box-shadow: 0 0 8px var(--color-sombra-neon-verde); }
 50% { border-color: var(--color-acento-neon-cian); box-shadow: 0 0 20px var(--color-sombra-neon-cian); }
@@ -497,7 +493,6 @@ box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
 100% { transform: scale(1); filter: brightness(1); }
 }
 
-/* Media Queries (Mantienen estructura) */
 @media (min-width: 769px) and (max-width: 1024px) {
 #main-content { padding: 50px 5%; }
 header, footer { padding-left: 5%; padding-right: 5%; }
